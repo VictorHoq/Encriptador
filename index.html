@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+            <img src="./Style/logo.png" alt="">
+</header>
+
+<main>
+    <div class="encriptar_desencriptar">
+        <textarea id="mensaje"  class="texto_1" placeholder="Ingrese el texto aqui"></textarea>
+        <div id="botones">
+            <p>
+                <img src="./Style/Vector.png" alt="">
+                Solo letras minúsculas y sin acentos</p>
+            <div class="botones-container">    
+                <button id="encriptar">Encriptar</button>
+                <button id="desencriptar">Desencriptar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="resultado">
+        <textarea id="mensaje-resultado" class="texto_2" name="" id=""  readonly></textarea>
+        <div class="botones-container">
+            <button id="copiar" class="copiar">Copiar</button>
+        </div>
+    </div>
+
+
+</main>
+
+<footer>
+    <p>Hecho por Victor H. Ocanto. El Agosto de 2024</p>
+
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
+
